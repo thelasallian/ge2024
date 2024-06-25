@@ -25,4 +25,7 @@ body {
 
 .navbar {
     margin: 83px 108px 0px 108px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
