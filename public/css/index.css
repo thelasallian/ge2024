@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background: #303030;
+}
+
+.main-frame {
+    max-width: 1440px;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.homepage-landing {
+    background: url(../assets/homepage-background.png);
+    background-color: whitesmoke;
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
