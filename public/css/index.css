@@ -7,18 +7,22 @@ body {
 }
 
 .main-frame {
-    max-width: 1440px;
+    max-width: 1728px;
     width: 100vw;
-    height: 100vh;
     overflow: hidden;
 }
 
 .homepage-landing {
     background: url(../assets/homepage-background.png);
     background-color: whitesmoke;
-    height: 100%;
+    height: 1117px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow-y: auto;
+}
+
+.navbar {
+    margin: 83px 108px 0px 108px;
 }
