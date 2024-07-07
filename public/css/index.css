@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'HelveticaNeueBold';
+  src: url(../fonts/HelveticaNeueBold.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeueNormal';
+  src: url(../fonts/HelveticaNeueRoman.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   background-color: #1A1A1A;
   margin: 0;
@@ -30,4 +45,24 @@ body {
 
 .logo, .hamburger {
   height: 35px;
+}
+
+.landing.title {
+  margin-top: 120px;
+  filter: blur(2px);
+  color: white;
+}
+
+.landing.main_title {
+  font-family: "HelveticaNeueBold";
+  font-size: 150px;
+  line-height: 120px;
+  letter-spacing: -12px;
+}
+
+.landing.sub_title {
+  margin-top: 20px;
+  font-size: 30px;
+  line-height: normal;
+  font-family: "HelveticaNeueNormal";
 }

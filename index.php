@@ -12,9 +12,9 @@
   <div class="landing background">
     <div class="landing content">
       <?php include('./components/navbar.php'); ?>
-      <div class="landing_title">
-        <div class="landing_title_main_text">Beyond the Chambers</div>
-        <div class="landing_title_sub_text">General Elections Special 2024</div>
+      <div class="landing title">
+        <div class="landing main_title">Beyond the <br> chambers</div>
+        <div class="landing sub_title">&nbsp;General Elections Special 2024</div>
       </div>
     </div>
   </div>
