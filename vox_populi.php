@@ -6,8 +6,6 @@
   <title>The LaSallian - Beyond the Chambers</title>
 </head>
 <body>
-  <div id="landing">
-    
-  </div>
+  <?php include("./components/header.php") ?>
 </body>
 </html>
