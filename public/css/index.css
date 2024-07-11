@@ -31,10 +31,93 @@ body {
 }
 
 .landing.background {
-  background: url(../assets/homepage-background.png);
+  /* background: url(../assets/homepage-background.png); */
+  /* background: linear-gradient(to top right, #1A321D, #2B432D, #3D533C, #4E644C, #5F745C, #70856C, #82957B, #93A68B, #A4B69B, #B5C7AB, #C7D7BA, #D8E8CA, #D8E8CA, #C7D7BA, #B5C7AB, #A4B69B, #93A68B, #82957B, #70856C, #5F745C, #4E644C, #3D533C, #2B432D, #1A321D); */
+  /* background: -webkit-linear-gradient(to top right, #1A321D, #253F27, #304C31, #3A593B, #456645, #50744F, #5B8159, #658E63, #709B6D, #7BA877, #7BA877, #709B6D, #658E63, #5B8159, #50744F, #456645, #3A593B, #304C31, #253F27, #1A321D);
+  background: -o-linear-gradient(to top right, #1A321D, #253F27, #304C31, #3A593B, #456645, #50744F, #5B8159, #658E63, #709B6D, #7BA877, #7BA877, #709B6D, #658E63, #5B8159, #50744F, #456645, #3A593B, #304C31, #253F27, #1A321D);
+  background: -moz-linear-gradient(to top right, #1A321D, #253F27, #304C31, #3A593B, #456645, #50744F, #5B8159, #658E63, #709B6D, #7BA877, #7BA877, #709B6D, #658E63, #5B8159, #50744F, #456645, #3A593B, #304C31, #253F27, #1A321D);
+  background: linear-gradient(to top right, #1A321D, #253F27, #304C31, #3A593B, #456645, #50744F, #5B8159, #658E63, #709B6D, #7BA877, #7BA877, #709B6D, #658E63, #5B8159, #50744F, #456645, #3A593B, #304C31, #253F27, #1A321D); */
+  background: linear-gradient(to top right, #292929, #343832, #3F473B, #4A5644, #56664D, #617556, #6C845F, #779368, #779368, #6C845F, #617556, #56664D, #4A5644, #3F473B, #343832, #292929);
+  background: -moz-linear-gradient(to top right, #292929, #343832, #3F473B, #4A5644, #56664D, #617556, #6C845F, #779368, #779368, #6C845F, #617556, #56664D, #4A5644, #3F473B, #343832, #292929);
+  background: -o-linear-gradient(to top right, #292929, #343832, #3F473B, #4A5644, #56664D, #617556, #6C845F, #779368, #779368, #6C845F, #617556, #56664D, #4A5644, #3F473B, #343832, #292929);
+  background: -webkit-linear-gradient(to top right, #292929, #343832, #3F473B, #4A5644, #56664D, #617556, #6C845F, #779368, #779368, #6C845F, #617556, #56664D, #4A5644, #3F473B, #343832, #292929);
   background-size: cover;
   height: 100vh;
   width: 100%;
+  z-index: -1;
+}
+
+/* .blob {
+  position: absolute;
+  opacity: 1;
+  width: 200px;
+  aspect-ratio: 1/1;
+  animation: animate 20s ease-in-out infinite alternate both;
+  filter: blur(20px);
+  border-radius: 50%;
+  background: white;
+  box-shadow: 0px 0px 60px 200px white;
+} */
+
+@keyframes animate {
+  30% {
+    translate: 0% 0%;
+    border-radius: 58% 42% 32% 68% / 30% 33% 67% 70%;
+    scale: 0.7;
+    rotate: 90deg;
+  }
+
+  60% {
+    translate: 70% 70%;
+    border-radius: 55% 45% 64% 36% / 42% 85% 15% 58%;
+    scale: 0.4, 1.5;
+    rotate: -45deg;
+  }
+
+  90% {
+    translate: 150% 50%;
+    border-radius: 55% 45% 64% 36% / 42% 85% 15% 58%;
+    scale: 0.9;
+    rotate: -95deg;
+  }
+
+  /* 45% {
+
+  }
+
+  60% {
+
+  }
+
+  75% {
+
+  }
+
+  90% {
+
+  }
+
+  100% {
+
+  } */
+
+
+  /* 0% {
+    translate: 40% -25%;
+    border-radius: 60% 40% 30% 70% / 100% 85% 92% 74%;
+  }
+  50% {
+    translate: 0% 13%;
+    border-radius: 20% 71% 47% 70% / 81% 15% 22% 54%;
+    rotate: 41deg;
+    scale: 1.15;
+  }
+  100% {
+    translate: -45% 39%;
+    border-radius: 100% 75% 92% 74% / 60% 80% 30% 70%;
+    rotate: -60deg;
+    scale: 1.05;
+  } */
 }
 
 .navbar {
