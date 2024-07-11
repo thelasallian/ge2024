@@ -1,68 +1,216 @@
-@font-face {
-  font-family: 'HelveticaNeueBold';
-  src: url(../fonts/HelveticaNeueBold.otf);
-  font-weight: bold;
-  font-style: normal;
+.blob:nth-child(1) {
+  animation: move1 5s linear infinite alternate both;
 }
 
-@font-face {
-  font-family: 'HelveticaNeueNormal';
-  src: url(../fonts/HelveticaNeueRoman.otf);
-  font-weight: normal;
-  font-style: normal;
+@keyframes move1 {
+  from {
+    transform: rotate(90deg) translate(200px 0.1px) rotate(-90deg);
+  }
+  to {
+    transform: rotate(450deg) translate(500px, 0.1px) rotate(-450deg);
+  }
+}
+.blob:nth-child(2) {
+  animation: move2 5s linear infinite alternate both;
 }
 
-
-body {
-  background-color: #1A1A1A;
-  margin: 0;
-  padding: 0;
+@keyframes move2 {
+  from {
+    transform: rotate(180deg) translate(200px 0.1px) rotate(-180deg);
+  }
+  to {
+    transform: rotate(540deg) translate(500px, 0.1px) rotate(-540deg);
+  }
+}
+.blob:nth-child(3) {
+  animation: move3 5s linear infinite alternate both;
 }
 
-.background {
-  display: flex;
-  justify-content: center;
+@keyframes move3 {
+  from {
+    transform: rotate(270deg) translate(200px 0.1px) rotate(-270deg);
+  }
+  to {
+    transform: rotate(630deg) translate(500px, 0.1px) rotate(-630deg);
+  }
+}
+.blob:nth-child(4) {
+  animation: move4 5s linear infinite alternate both;
 }
 
-.content {
-  max-width: 1440px;
-  width: 100%;
-  padding: 60px 60px;
+@keyframes move4 {
+  from {
+    transform: rotate(360deg) translate(200px 0.1px) rotate(-360deg);
+  }
+  to {
+    transform: rotate(720deg) translate(500px, 0.1px) rotate(-720deg);
+  }
+}
+.blob:nth-child(5) {
+  animation: move5 5s linear infinite alternate both;
 }
 
-.landing.background {
-  background: url(../assets/homepage-background.png);
-  background-size: cover;
-  height: 100vh;
-  width: 100%;
+@keyframes move5 {
+  from {
+    transform: rotate(450deg) translate(200px 0.1px) rotate(-450deg);
+  }
+  to {
+    transform: rotate(810deg) translate(500px, 0.1px) rotate(-810deg);
+  }
+}
+.blob:nth-child(6) {
+  animation: move6 5s linear infinite alternate both;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+@keyframes move6 {
+  from {
+    transform: rotate(540deg) translate(200px 0.1px) rotate(-540deg);
+  }
+  to {
+    transform: rotate(900deg) translate(500px, 0.1px) rotate(-900deg);
+  }
+}
+.blob:nth-child(7) {
+  animation: move7 5s linear infinite alternate both;
 }
 
-.logo, .hamburger {
-  height: 35px;
+@keyframes move7 {
+  from {
+    transform: rotate(630deg) translate(200px 0.1px) rotate(-630deg);
+  }
+  to {
+    transform: rotate(990deg) translate(500px, 0.1px) rotate(-990deg);
+  }
+}
+.blob:nth-child(8) {
+  animation: move8 5s linear infinite alternate both;
 }
 
-.landing.title {
-  margin-top: 120px;
-  filter: blur(2px);
-  color: white;
+@keyframes move8 {
+  from {
+    transform: rotate(720deg) translate(200px 0.1px) rotate(-720deg);
+  }
+  to {
+    transform: rotate(1080deg) translate(500px, 0.1px) rotate(-1080deg);
+  }
+}
+.blob:nth-child(9) {
+  animation: move9 5s linear infinite alternate both;
 }
 
-.landing.main_title {
-  font-family: "HelveticaNeueBold";
-  font-size: 150px;
-  line-height: 120px;
-  letter-spacing: -12px;
+@keyframes move9 {
+  from {
+    transform: rotate(810deg) translate(200px 0.1px) rotate(-810deg);
+  }
+  to {
+    transform: rotate(1170deg) translate(500px, 0.1px) rotate(-1170deg);
+  }
+}
+.blob:nth-child(10) {
+  animation: move10 5s linear infinite alternate both;
 }
 
-.landing.sub_title {
-  margin-top: 20px;
-  font-size: 30px;
-  line-height: normal;
-  font-family: "HelveticaNeueNormal";
+@keyframes move10 {
+  from {
+    transform: rotate(900deg) translate(200px 0.1px) rotate(-900deg);
+  }
+  to {
+    transform: rotate(1260deg) translate(500px, 0.1px) rotate(-1260deg);
+  }
 }
+.blob:nth-child(11) {
+  animation: move11 5s linear infinite alternate both;
+}
+
+@keyframes move11 {
+  from {
+    transform: rotate(990deg) translate(200px 0.1px) rotate(-990deg);
+  }
+  to {
+    transform: rotate(1350deg) translate(500px, 0.1px) rotate(-1350deg);
+  }
+}
+.blob:nth-child(12) {
+  animation: move12 5s linear infinite alternate both;
+}
+
+@keyframes move12 {
+  from {
+    transform: rotate(1080deg) translate(200px 0.1px) rotate(-1080deg);
+  }
+  to {
+    transform: rotate(1440deg) translate(500px, 0.1px) rotate(-1440deg);
+  }
+}
+.blob:nth-child(13) {
+  animation: move13 5s linear infinite alternate both;
+}
+
+@keyframes move13 {
+  from {
+    transform: rotate(1170deg) translate(200px 0.1px) rotate(-1170deg);
+  }
+  to {
+    transform: rotate(1530deg) translate(500px, 0.1px) rotate(-1530deg);
+  }
+}
+.blob:nth-child(14) {
+  animation: move14 5s linear infinite alternate both;
+}
+
+@keyframes move14 {
+  from {
+    transform: rotate(1260deg) translate(200px 0.1px) rotate(-1260deg);
+  }
+  to {
+    transform: rotate(1620deg) translate(500px, 0.1px) rotate(-1620deg);
+  }
+}
+.blob:nth-child(15) {
+  animation: move15 5s linear infinite alternate both;
+}
+
+@keyframes move15 {
+  from {
+    transform: rotate(1350deg) translate(200px 0.1px) rotate(-1350deg);
+  }
+  to {
+    transform: rotate(1710deg) translate(500px, 0.1px) rotate(-1710deg);
+  }
+}
+.blob:nth-child(16) {
+  animation: move16 5s linear infinite alternate both;
+}
+
+@keyframes move16 {
+  from {
+    transform: rotate(1440deg) translate(200px 0.1px) rotate(-1440deg);
+  }
+  to {
+    transform: rotate(1800deg) translate(500px, 0.1px) rotate(-1800deg);
+  }
+}
+.blob:nth-child(17) {
+  animation: move17 5s linear infinite alternate both;
+}
+
+@keyframes move17 {
+  from {
+    transform: rotate(1530deg) translate(200px 0.1px) rotate(-1530deg);
+  }
+  to {
+    transform: rotate(1890deg) translate(500px, 0.1px) rotate(-1890deg);
+  }
+}
+.blob:nth-child(18) {
+  animation: move18 5s linear infinite alternate both;
+}
+
+@keyframes move18 {
+  from {
+    transform: rotate(1620deg) translate(200px 0.1px) rotate(-1620deg);
+  }
+  to {
+    transform: rotate(1980deg) translate(500px, 0.1px) rotate(-1980deg);
+  }
+}/*# sourceMappingURL=index.css.map */
