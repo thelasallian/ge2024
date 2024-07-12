@@ -1,17 +1,24 @@
 @for $i from 1 through 18 {
   $a: #{$i*90};
   $b: #{$i*90+360};
+  $c: random(600);
+  $d: random(1500);
 
   .blob:nth-child(#{$i}) {
-    animation: move#{$i} 5s linear infinite alternate both;
+    animation: move#{$i} 80s ease-in-out 0s infinite both;
+    top: #{$c}px;
+    left: #{$d}px;
   }
 
   @keyframes move#{$i} {
-    from {
+    0% {
       transform: rotate(#{$a}deg) translate(200px 0.1px) rotate(-#{$a}deg);
     }
-    to {
-      transform: rotate(#{$b}deg) translate(500px, 0.1px) rotate(-#{$b}deg);
+    50% {
+      transform: rotate(#{$b}deg) translate(200px, 0.1px) rotate(-#{$b}deg);
+    }
+    100% {
+      transform: rotate(#{$a}deg) translate(200px 0.1px) rotate(-#{$a}deg);
     }
   }
 }

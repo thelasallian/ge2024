@@ -7,13 +7,31 @@
   <link rel="icon" type="image/x-icon" href="./public/assets/logos/tls-star-white.svg">
   
   <link rel="stylesheet" href="./public/css/index_1.css">
-  <link rel="stylesheet" href="./public/css/index.css">
+  <link rel="stylesheet" href="./public/css/dist/index.css">
 </head>
 <body>
   <div class="landing background">
-    <div class="blobs">
-      <div class="blob one" ></div>
-      <div class="blob two" ></div>
+    <div class="gooey">
+      <div class="blobs">
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <!-- <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div> -->
+      </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
       <defs>
@@ -21,10 +39,6 @@
           <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
           <feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
           <feBlend in="SourceGraphic" in2="goo" />
-        </filter>
-        <filter id="noise">
-          <feTurbulence type="fractalNoise" baseFrequency="10.00" numOctaves="6" stitchTiles="stitch" />
-          <feDisplacementMap in="SourceGraphic" scale="280" />
         </filter>
       </defs>
     </svg>
