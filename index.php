@@ -9,15 +9,17 @@
   <link rel="stylesheet" href="./public/css/index.css">
 </head>
 <body>
+  <!-- House of cards landing page -->
   <div class="landing background">
     <div class="landing content">
       <?php include('./components/navbar.php'); ?>
       <div class="landing title">
-        <div class="landing main_title">Beyond the <br> chambers</div>
+        <div class="landing main_title">House of <br> cards</div>
         <div class="landing sub_title">&nbsp;General Elections Special 2024</div>
       </div>
     </div>
   </div>
+
   <div></div>
   <div class="homepage background">
     <div class="editors_note content">
