@@ -34,7 +34,9 @@ body {
   /* background: url(../assets/homepage-background.png); */
   /* background: linear-gradient(to top right, #1E1E1E, #1F211E, #20231F, #22261F, #232820, #242B20, #242B20, #232820, #22261F, #20231F, #1F211E, #1E1E1E); */
   /* background: linear-gradient(green, #1A1A1A); */
-  background: linear-gradient(to top right, #292929, #343832, #3F473B, #4A5644, #56664D, #617556, #6C845F, #779368, #779368, #6C845F, #617556, #56664D, #4A5644, #3F473B, #343832, #292929);
+  /* background: linear-gradient(to top right, #292929, #343832, #3F473B, #4A5644, #56664D, #617556, #6C845F, #779368, #779368, #6C845F, #617556, #56664D, #4A5644, #3F473B, #343832, #292929); */
+  background: #D1D7C9;
+  /* background: linear-gradient(to top right, #32432C, #4A5A3F, #617853, #758A64, #758A64, #617853, #4A5A3F, #32432C); */
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -54,12 +56,12 @@ body {
 }
 
 .blob {
-  background: rgb(255,255,255);
+  /* background: rgb(255,255,255);
   background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
   position: absolute;
   width: 400px;
   aspect-ratio: 1/1;
-  border-radius: 50%;
+  border-radius: 50%; */
   filter: blur(50px);
   mix-blend-mode: luminosity;
 }

@@ -1,24 +1,23 @@
-@for $i from 1 through 18 {
+.blobCont {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+@for $i from 1 through 19 {
   $a: #{$i*90};
   $b: #{$i*90+360};
-  $c: random(600);
-  $d: random(1500);
 
   .blob:nth-child(#{$i}) {
-    animation: move#{$i} 80s ease-in-out 0s infinite both;
-    top: #{$c}px;
-    left: #{$d}px;
+    animation: move#{$i} 250s infinite linear;
   }
 
   @keyframes move#{$i} {
-    0% {
-      transform: rotate(#{$a}deg) translate(200px 0.1px) rotate(-#{$a}deg);
+    from {
+      transform: rotate(#{$a}deg) translate(200px, 0.1px) rotate(-#{$a}deg);
     }
-    50% {
+    to {
       transform: rotate(#{$b}deg) translate(200px, 0.1px) rotate(-#{$b}deg);
-    }
-    100% {
-      transform: rotate(#{$a}deg) translate(200px 0.1px) rotate(-#{$a}deg);
     }
   }
 }
