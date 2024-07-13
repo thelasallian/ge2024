@@ -19,7 +19,11 @@
       </div>
     </div>
   </div>
+
+<!-- Homepage main content -->
   <div class="homepage background">
+
+    <!-- Editor's note -->
     <div class="editors_note content">
       <div class="editors_note_title">
         <div class="editors_note_title_text">Editor's Note</div>
@@ -33,7 +37,9 @@
       </div>
       <div class="editors_note_author">Carl Joshua Mamuri <br> University Editor</div>
     </div>
-    <div class="articles content">
+
+
+    <!-- <div class="articles content">
       <div class="articles_title">
         <div class="articles_title_text">Articles</div>
         <div class="articles_title_view_all_btn">View All</div>
@@ -56,7 +62,7 @@
           // include('./components/article_card.php');
         ?>
       </div>
-    </div>
+    </div> -->
   </div>
 </body>
 </html>
