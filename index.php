@@ -46,8 +46,8 @@
       </div>
       <div class="articles_carousel">
         <?php
-          $article_card_img_src = "./public/assets/article_card_img/women_lead_usg_amclass_misogyny.jpg";
-          $article_card_title = "On the microscale: Women lead USG amclass wclassespread misogyny";
+          $article_card_img_src = "./public/assets/article_card_img/women_lead_usg_amid_misogyny.jpg";
+          $article_card_title = "On the microscale: Women lead USG amid widespread misogyny";
           $article_card_tag = "PULSE";
           // include('./components/article_card.php'); 
 
