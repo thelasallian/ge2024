@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
   font-family: 'HelveticaNeueBold';
   src: url(../fonts/HelveticaNeueBold.otf);
@@ -17,6 +18,14 @@
   src: url(../fonts/HelveticaNeueMedium.otf);
   font-weight: normal;
   font-style: normal;
+}
+
+* {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body {
