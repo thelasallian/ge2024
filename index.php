@@ -27,12 +27,12 @@
         $sticky_class = "sticky_navbar"; 
         include('./components/navbar.php'); 
       ?>
-      
+
       <!-- Editor's note -->
       <div class="editors_note">
         <div class="editors_note_title">
           <div class="editors_note_title_text">Editor's Note</div>
-          <div class="editors_note_hr"></div>
+          <div class="editors_note_hr"><hr></div>
         </div>
         <div class="editors_note_body">
           <div class="editors_note_art"></div>

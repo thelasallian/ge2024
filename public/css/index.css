@@ -120,3 +120,28 @@ body {
 .landing.main_title:hover, .landing.sub_title:hover {
   filter: blur(0px);
 }
+
+.homepage {
+  color: var(--text_color);
+  font-family: var(--sub_title_font);
+}
+
+.editors_note_title {
+  display: flex;
+  height: var(--sub_title_font_size);
+}
+
+.editors_note_title_text {
+  font-size: var(--sub_title_font_size);
+  width: 205px;
+  white-space: nowrap;
+}
+
+.editors_note_hr {
+  width:max-content;
+  width: 100%;
+  margin: 0;
+  margin: auto;
+  padding: 0px 0px 0px 30px;
+  box-sizing: border-box;
+}
