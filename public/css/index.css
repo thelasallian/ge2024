@@ -60,6 +60,7 @@ body {
 
 .logo, .hamburger {
   height: 35px;
+  filter: drop-shadow(1px 1px 10px #5c5c5c);
 }
 
 .landing.title {
@@ -90,6 +91,6 @@ body {
   font-family: "HelveticaNeueMedium";
 }
 
-.landing.main_title:hover, .landing.sub_title:hover, .logo:hover, .hamburger:hover {
+.landing.main_title:hover, .landing.sub_title:hover {
   filter: blur(0px);
 }
