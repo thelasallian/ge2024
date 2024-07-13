@@ -19,8 +19,6 @@
       </div>
     </div>
   </div>
-
-  <div></div>
   <div class="homepage background">
     <div class="editors_note content">
       <div class="editors_note_title">
