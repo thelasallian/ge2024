@@ -43,7 +43,7 @@
 }
 
 body {
-  background-color: #1A1A1A;
+  background-color: var(--bg_color);
   margin: 0;
   padding: 0;
 }
@@ -89,7 +89,7 @@ body {
 
 .landing.title {
   margin-top: 16vh;
-  color: white;
+  color: var(--text_color);
 }
 
 .landing.title > div {
@@ -98,21 +98,21 @@ body {
 }
 
 .landing.main_title {
-  font-family: "HelveticaNeueBold";
-  font-size: 150px;
+  font-family: var(--main_title_font);
+  font-size: var(--main_title_font_size);
   line-height: 120px;
   letter-spacing: -6px;
-  text-shadow: 8px 8px 20px #8B8B8B;
+  text-shadow: 8px 8px 20px var(--text_shadow_color);
   filter: blur(2px);
 }
 
 .landing.sub_title {
   margin-top: 20px;
   filter: blur(1.5px);
-  text-shadow: 4px 4px 20px #8B8B8B;
-  font-size: 30px;
+  text-shadow: 4px 4px 20px var(--text_shadow_color);
+  font-size: var(--sub_title_font_size);
   line-height: normal;
-  font-family: "HelveticaNeueMedium";
+  font-family: var(--sub_title_font);
 }
 
 .landing.main_title:hover, .landing.sub_title:hover {
