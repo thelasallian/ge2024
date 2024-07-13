@@ -65,6 +65,7 @@ body {
   letter-spacing: -6px;
   text-shadow: 8px 8px 20px #8B8B8B;
   filter: blur(2px);
+  width: fit-content;
 }
 
 .landing.sub_title {
@@ -74,4 +75,9 @@ body {
   font-size: 30px;
   line-height: normal;
   font-family: "HelveticaNeueMedium";
+  width: fit-content;
+}
+
+.landing.main_title:hover, .landing.sub_title:hover, .logo:hover, .hamburger:hover {
+  filter: blur(0px);
 }
