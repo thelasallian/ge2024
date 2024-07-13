@@ -12,6 +12,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'HelveticaNeueMedium';
+  src: url(../fonts/HelveticaNeueMedium.otf);
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body {
   background-color: #1A1A1A;
