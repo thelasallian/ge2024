@@ -57,7 +57,6 @@ body {
 
 .landing.title {
   margin-top: 120px;
-  filter: blur(2px);
   color: white;
 }
 
@@ -76,5 +75,5 @@ body {
   text-shadow: 4px 4px 20px #8B8B8B;
   font-size: 30px;
   line-height: normal;
-  font-family: "HelveticaNeueNormal";
+  font-family: "HelveticaNeueMedium";
 }
