@@ -19,7 +19,6 @@
   font-style: normal;
 }
 
-
 body {
   background-color: #1A1A1A;
   margin: 0;
@@ -52,7 +51,6 @@ body {
 
 .logo, .hamburger {
   height: 35px;
-  filter: blur(1.5px), drop-shadow(1px 1px 20px #8B8B8B);
 }
 
 .landing.title {
