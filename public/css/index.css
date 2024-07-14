@@ -267,3 +267,13 @@ body {
   width: fit-content;
   align-self: center;
 }
+
+/* Footer */
+.footer {
+  background: url(../assets/art/footer_background.png);
+  background-size: cover;
+}
+
+.footers_socials_icon {
+ text-decoration: none;
+}
