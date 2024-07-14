@@ -41,7 +41,7 @@
             Nisl a commodo rutrum porttitor odio dictumst phasellus ut id. Quis et tempor vitae pharetra. Tristique varius nibh elit enim nec. Praesent purus interdum risus aliquet justo. Tempus malesuada enim aliquam purus eget. A malesuada nisl eu mattis ut id pellentesque est. Eget elementum sed sagittis in semper facilisis ullamcorper. Vel volutpat quis maecenas cursus interdum. Sit enim dui suspendisse odio pellentesque vulputate non lobortis vitae. Eget amet elit mollis aliquam tellus nulla. Aliquet in vitae mauris rhoncus tincidunt amet cum tempus hendrerit.
           </div>
         </div>
-        <div class="editors_note_author">Carl Joshua Mamuri <br> <div class="editors_note_author position">University Editor</div></div>
+        <div class="editors_note_author">Carl Joshua Mamuri <br> <div class="editors_note_author position">University Editor</div></div>        
       </div>
       <br>
       <br>
