@@ -34,6 +34,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 * {
   -moz-user-select: -moz-none;
   -khtml-user-select: none;
@@ -144,4 +146,31 @@ body {
   margin: auto;
   padding: 0px 0px 0px 30px;
   box-sizing: border-box;
+}
+
+.editors_note_body {
+  display: flex;
+  flex-direction: row;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 40px 20px;
+  align-items: center;
+}
+
+.editors_note_art {
+  background-blend-mode: color-burn;
+  filter: blur(1px) saturate(0);
+  height: 171px;
+  width: 342px;
+}
+
+.editors_note_text {
+  columns: 2;
+  column-gap: 25px;
+  text-align: justify;
+  margin: auto 0px auto 80px;
+  align-content: center;
+  font-size: var(--small_text_font_size);
+  line-height: 1.3;
 }

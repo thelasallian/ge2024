@@ -35,9 +35,10 @@
           <div class="editors_note_hr"><hr></div>
         </div>
         <div class="editors_note_body">
-          <div class="editors_note_art"></div>
+          <img class="editors_note_art" src="./public/assets/art/editors_note_art.png" alt="Editor's Note Art" title="Editor's Note Art">
           <div class="editors_note_text">
-            
+            Lorem ipsum dolor sit amet consectetur. Velit risus felis adipiscing vitae. Pulvinar sagittis cursus sed tristique. Augue praesent pellentesque iaculis pellentesque ut. Massa justo nibh non neque feugiat. Sit vestibulum tortor sagittis morbi. Integer vestibulum augue morbi euismod volutpat fames venenatis cursus. Sem auctor tincidunt facilisi auctor viverra rutrum netus tempus. Pulvinar volutpat non vestibulum diam. Convallis odio auctor massa in. Nullam facilisi pellentesque nunc sagittis.
+            Nisl a commodo rutrum porttitor odio dictumst phasellus ut id. Quis et tempor vitae pharetra. Tristique varius nibh elit enim nec. Praesent purus interdum risus aliquet justo. Tempus malesuada enim aliquam purus eget. A malesuada nisl eu mattis ut id pellentesque est. Eget elementum sed sagittis in semper facilisis ullamcorper. Vel volutpat quis maecenas cursus interdum. Sit enim dui suspendisse odio pellentesque vulputate non lobortis vitae. Eget amet elit mollis aliquam tellus nulla. Aliquet in vitae mauris rhoncus tincidunt amet cum tempus hendrerit.
           </div>
         </div>
         <div class="editors_note_author">Carl Joshua Mamuri <br> University Editor</div>
