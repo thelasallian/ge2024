@@ -89,6 +89,16 @@
           ?>
         </div>
       </div> -->
+
+      <!-- Fast talk -->
+      <div class="fasttalk">
+        <div class="fasttalk_question">
+          Coming Soon.
+        </div>
+        <div class="fasttalk_button">
+          View Fast Talk
+        </div>
+      </div>
     </div>
   </div>
 </body>
