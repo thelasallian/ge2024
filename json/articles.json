@@ -2,10 +2,10 @@
   "articles": [
     {
       "data": {
-        "featured_img": "./public/assets/article_card_img/women_lead_usg_amid_misogyny.jpg",
+        "img": "./public/assets/article_card_img/women_lead_usg_amid_misogyny.jpg",
         "title": "Seven independents headline GE 2024 amid Tapat, Santugon blunders",
         "tag": "STRAIGHT NEWS", 
-        "description": "GE 2024 becomes the first major student government election with no candidates from both political parties and no aspirants for the USG executive board."
+        "desc": "GE 2024 becomes the first major student government election with no candidates from both political parties and no aspirants for the USG executive board."
       }
     }
   ]
