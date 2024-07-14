@@ -43,104 +43,29 @@
         </div>
         <div class="editors_note_author">Carl Joshua Mamuri <br> <div class="editors_note_author position">University Editor</div></div>        
       </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
+      
+      <!-- Featured -->
+      <?php  
+        $file_content = file_get_contents("./json/articles.json");
+        $articles = json_decode($file_content, TRUE);
 
-      <div class="articles">
+        $featured_img = $articles["articles"][0]["data"]["img"];
+        $featured_title = $articles["articles"][0]["data"]["title"];
+        $featured_tag = $articles["articles"][0]["data"]["tag"];
+        $featured_desc = $articles["articles"][0]["data"]["desc"];
+      ?>
+
+      <div class="featured">
+        <img class="featured_img" src="<?php echo $featured_img?>" alt="<?php echo $featured_title?>" title="<?php echo $featured_title?>" draggable="false">
+        <div class="featured_details">
+          <div class="featured_tag"><?php echo $featured_tag?></div>
+          <div class="featured_title"><?php echo $featured_title?></div>
+          <div class="featured_desc"><?php echo $featured_desc?></div>
+        </div>
+      </div>
+
+      <!-- Article list (postponed) -->
+      <!-- <div class="articles">
         <div class="articles_title">
           <div class="articles_title_text">Articles</div>
           <div class="articles_title_view_all_btn">View All</div>
@@ -150,20 +75,20 @@
             $article_card_img_src = "./public/assets/article_card_img/women_lead_usg_amid_misogyny.jpg";
             $article_card_title = "On the microscale: Women lead USG amid widespread misogyny";
             $article_card_tag = "PULSE";
-            // include('./components/article_card.php'); 
+            include('./components/article_card.php'); 
 
             $article_card_img_src = "./public/assets/article_card_img/are_student_councils_faltering.jpg";
             $article_card_title = "Are student councils faltering?";
             $article_card_tag = "COMMENTARY";
-            // include('./components/article_card.php');
+            include('./components/article_card.php');
 
             $article_card_img_src = "./public/assets/article_card_img/is_the_usg_overstaffed_or_underutilized.jpg";
             $article_card_title = "Is the USG overstaffed or underutilized?";
             $article_card_tag = "COMMENTARY";
-            // include('./components/article_card.php');
+            include('./components/article_card.php');
           ?>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </body>
