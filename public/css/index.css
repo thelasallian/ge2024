@@ -238,18 +238,18 @@ body {
 }
 
 /* Fast talk */
-.fasttalk {
+.voxpopuli {
   margin: 40px 0px;
   display: flex;
   flex-direction: column;
 }
 
-.fasttalk_title_text {
+.voxpopuli_title_text {
   font-size: var(--sub_title_font_size);
   white-space: nowrap;
 }
 
-.fasttalk_question {
+.voxpopuli_question {
   font-family: var(--small_text_font);
   font-size: 70px;
   filter: blur(2px);
@@ -257,11 +257,11 @@ body {
   width: fit-content;
 }
 
-.fasttalk_question:hover {
+.voxpopuli_question:hover {
   filter: blur(0px);
 }
 
-.fasttalk_button {
+.voxpopuli_button {
   font-size: 20px;
   text-align: center;
   width: fit-content;

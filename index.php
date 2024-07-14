@@ -90,14 +90,14 @@
         </div>
       </div> -->
 
-      <!-- Fast talk -->
-      <div class="fasttalk">
-        <div class="fasttalk_title_text">Fast Talk</div>
-        <div class="fasttalk_question">
+      <!-- Vox populi -->
+      <div class="voxpopuli">
+        <div class="voxpopuli_title_text">Vox Populi</div>
+        <div class="voxpopuli_question">
           What is the most notable USG policy or project that you remember?
         </div>
-        <div class="fasttalk_button">
-          View Fast Talk →
+        <div class="voxpopuli_button">
+          View Vox Populi →
         </div>
       </div>
     </div>
