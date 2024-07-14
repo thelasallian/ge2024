@@ -64,7 +64,7 @@ body {
 }
 
 .landing.background {
-  background: url(../assets/homepage-background.png);
+  background: url(../assets/art/homepage_background.png);
   background-size: cover;
   height: 100vh;
   width: 100%;
