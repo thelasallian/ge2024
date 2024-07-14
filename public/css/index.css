@@ -238,5 +238,32 @@ body {
 }
 
 /* Fast talk */
+.fasttalk {
+  margin: 40px 0px;
+  display: flex;
+  flex-direction: column;
+}
 
+.fasttalk_title_text {
+  font-size: var(--sub_title_font_size);
+  white-space: nowrap;
+}
 
+.fasttalk_question {
+  font-family: var(--small_text_font);
+  font-size: 70px;
+  filter: blur(2px);
+  margin: 40px 0px 60px 0px;
+  width: fit-content;
+}
+
+.fasttalk_question:hover {
+  filter: blur(0px);
+}
+
+.fasttalk_button {
+  font-size: 20px;
+  text-align: center;
+  width: fit-content;
+  align-self: center;
+}

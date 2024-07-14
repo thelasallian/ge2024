@@ -92,11 +92,12 @@
 
       <!-- Fast talk -->
       <div class="fasttalk">
+        <div class="fasttalk_title_text">Fast Talk</div>
         <div class="fasttalk_question">
-          Coming Soon.
+          What is the most notable USG policy or project that you remember?
         </div>
         <div class="fasttalk_button">
-          View Fast Talk
+          View Fast Talk →
         </div>
       </div>
     </div>
