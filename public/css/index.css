@@ -170,7 +170,7 @@ body {
 
 .editors_note_art {
   background-blend-mode: color-burn;
-  filter: blur(1px) saturate(0);
+  filter: blur(2px) saturate(0);
   height: 171px;
   width: 342px;
 }
