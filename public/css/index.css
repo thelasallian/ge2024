@@ -123,7 +123,7 @@ body {
   font-family: var(--sub_title_font);
 }
 
-.landing.main_title:hover, .landing.sub_title:hover {
+.landing.main_title:hover, .landing.sub_title:hover, .footer_logo:hover, .footer_socials_icon:hover, .editors_note_art:hover {
   filter: blur(0px);
 }
 
