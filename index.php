@@ -103,7 +103,7 @@
     </div>
     <!-- Footer -->
     <div class="footer background">
-      <div class="footer content">
+      <div class="footer_content">
         <div class="footer_website_details">
           <img class="footer_logo" src="./public/assets/logos/tls-star-white.svg" alt="The LaSallian" title="The LaSallian" draggable="false"/>
           <div class="footer_org_desc">
@@ -117,16 +117,16 @@
         <div class="footer_extra">
           <div class="footer_socials">
             <a class="footer_socials_icon" href="https://x.com/thelasallian">
-              <img class="footer_socials_x" src="./public/assets/icons/x_logo.png" alt="X - The LaSallian" title="X - The LaSallian" draggable="false" />
+              <img class="footer_socials_x footer_socials_icon" src="./public/assets/icons/x_logo.png" alt="X - The LaSallian" title="X - The LaSallian" draggable="false" />
             </a>
             <a class="footer_socials_icon" href="https://facebook.com/thelasallian">
-              <img class="footer_socials_fb" src="./public/assets/icons/facebook_logo.svg" alt="Facebook - The LaSallian" title="Facebook - The LaSallian" draggable="false" />
+              <img class="footer_socials_icon footer_socials_fb" src="./public/assets/icons/facebook_logo.svg" alt="Facebook - The LaSallian" title="Facebook - The LaSallian" draggable="false" />
             </a>
             <a class="footer_socials_icon" href="https://instagram.com/thelasallian">
-              <img class="footer_socials_ig" src="./public/assets/icons/ig_logo.png" alt="Instagram - The LaSallian" title="Instagram - The LaSallian" draggable="false" />
+              <img class="footer_socials_icon footer_socials_ig" src="./public/assets/icons/ig_logo.png" alt="Instagram - The LaSallian" title="Instagram - The LaSallian" draggable="false" />
             </a>
             <a class="footer_socials_icon" href="https://t.me/thelasallian">
-              <img class="footer_socials_tg" src="./public/assets/icons/tg_logo.png" alt="Telegram - The LaSallian" title="Telegram - The LaSallian" draggable="false" />
+              <img class="footer_socials_tg footer_socials_icon" src="./public/assets/icons/tg_logo.png" alt="Telegram - The LaSallian" title="Telegram - The LaSallian" draggable="false" />
             </a>
           </div>
           <div class="footer_copyright">
