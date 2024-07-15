@@ -107,11 +107,11 @@
         <div class="footer_website_details">
           <img class="footer_logo" src="./public/assets/logos/tls-star-white.svg" alt="The LaSallian" title="The LaSallian" draggable="false"/>
           <div class="footer_org_desc">
-            The LaSallian is the official student publication of De La Salle University. It is of the students, by the students, and for the students. Our student writers, photographers, videographers, artists, and web managers are committed to the 63-year tradition of journalistic excellence and issue-oriented critical thinking.
+            <span class="bold">The LaSallian</span> is the official student publication of De La Salle University. It is of the students, by the students, and for the students. Our student writers, photographers, videographers, artists, and web managers are committed to the 63-year tradition of journalistic excellence and issue-oriented critical thinking.
           </div>
           <div class="credits">
-            <div class="italicize">Website by</div> Patrick James Marcellana & Ramon Enrico Martinez <br>
-            <div class="italicize">Graphics by</div> Maxine Lee
+            <span class="italicize">Website by</span> <span class="bold">Patrick James Marcellana & Ramon Enrico Martinez</span><br>
+            <span class="italicize">Graphics by</span> <span class="bold">Maxine Lee</span>
           </div>
         </div>
         <div class="footer_extra">
