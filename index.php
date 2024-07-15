@@ -102,37 +102,38 @@
       </div>
     </div>
     <!-- Footer -->
-    <div class="footer">
-      <div class="footer_website_details">
-        <img class="footer_logo" src="./public/assets/logos/tls-star-white.svg" alt="The LaSallian" title="The LaSallian" draggable="false"/>
-        <div class="footer_org_desc">
-          The LaSallian is the official student publication of De La Salle University. It is of the students, by the students, and for the students. Our student writers, photographers, videographers, artists, and web managers are committed to the 63-year tradition of journalistic excellence and issue-oriented critical thinking.
+    <div class="footer background">
+      <div class="footer content">
+        <div class="footer_website_details">
+          <img class="footer_logo" src="./public/assets/logos/tls-star-white.svg" alt="The LaSallian" title="The LaSallian" draggable="false"/>
+          <div class="footer_org_desc">
+            The LaSallian is the official student publication of De La Salle University. It is of the students, by the students, and for the students. Our student writers, photographers, videographers, artists, and web managers are committed to the 63-year tradition of journalistic excellence and issue-oriented critical thinking.
+          </div>
+          <div class="credits">
+            <div class="italicize">Website by</div> Patrick James Marcellana & Ramon Enrico Martinez <br>
+            <div class="italicize">Graphics by</div> Maxine Lee
+          </div>
         </div>
-        <div class="credits">
-          <div class="italicize">Website by</div> Patrick James Marcellana & Ramon Enrico Martinez <br>
-          <div class="italicize">Graphics by</div> Maxine Lee
+        <div class="footer_extra">
+          <div class="footer_socials">
+            <a class="footer_socials_icon" href="https://x.com/thelasallian">
+              <img class="footer_socials_x" src="./public/assets/icons/x_logo.png" alt="X - The LaSallian" title="X - The LaSallian" draggable="false" />
+            </a>
+            <a class="footer_socials_icon" href="https://facebook.com/thelasallian">
+              <img class="footer_socials_fb" src="./public/assets/icons/facebook_logo.svg" alt="Facebook - The LaSallian" title="Facebook - The LaSallian" draggable="false" />
+            </a>
+            <a class="footer_socials_icon" href="https://instagram.com/thelasallian">
+              <img class="footer_socials_ig" src="./public/assets/icons/ig_logo.png" alt="Instagram - The LaSallian" title="Instagram - The LaSallian" draggable="false" />
+            </a>
+            <a class="footer_socials_icon" href="https://t.me/thelasallian">
+              <img class="footer_socials_tg" src="./public/assets/icons/tg_logo.png" alt="Telegram - The LaSallian" title="Telegram - The LaSallian" draggable="false" />
+            </a>
+          </div>
+          <div class="footer_copyright">
+            © 2024 The LaSallian
+          </div>
         </div>
       </div>
-      <div class="footer_extra">
-        <div class="footer_socials">
-          <a class="footer_socials_icon" href="https://x.com/thelasallian">
-            <img class="footer_socials_x" src="./public/assets/icons/x_logo.png" alt="X - The LaSallian" title="X - The LaSallian" draggable="false" />
-          </a>
-          <a class="footer_socials_icon" href="https://facebook.com/thelasallian">
-            <img class="footer_socials_fb" src="./public/assets/icons/facebook_logo.svg" alt="Facebook - The LaSallian" title="Facebook - The LaSallian" draggable="false" />
-          </a>
-          <a class="footer_socials_icon" href="https://instagram.com/thelasallian">
-            <img class="footer_socials_ig" src="./public/assets/icons/ig_logo.png" alt="Instagram - The LaSallian" title="Instagram - The LaSallian" draggable="false" />
-          </a>
-          <a class="footer_socials_icon" href="https://t.me/thelasallian">
-            <img class="footer_socials_tg" src="./public/assets/icons/tg_logo.png" alt="Telegram - The LaSallian" title="Telegram - The LaSallian" draggable="false" />
-          </a>
-        </div>
-        <div class="footer_copyright">
-          © 2024 The LaSallian
-        </div>
-      </div>
-
     </div>
   </div>
 </body>
