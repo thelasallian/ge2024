@@ -13,7 +13,7 @@
   <div class="landing background">
     <div class="landing content">
       <?php include('./components/navbar.php'); ?>
-      <div class="landing title">
+      <div class="landing title unhighlightable">
         <div class="landing main_title">House of <br> cards</div>
         <div class="landing sub_title">&nbsp;General Elections Special 2024</div>
       </div>
@@ -31,7 +31,7 @@
       <!-- Editor's note -->
       <div class="editors_note">
         <div class="editors_note_title">
-          <div class="editors_note_title_text">Editor's Note</div>
+          <div class="editors_note_title_text unhighlightable">Editor's Note</div>
           <div class="editors_note_hr"><hr></div>
         </div>
         <div class="editors_note_body">
@@ -92,11 +92,11 @@
 
       <!-- Vox populi -->
       <div class="voxpopuli">
-        <div class="voxpopuli_title_text">Vox Populi</div>
-        <div class="voxpopuli_question">
+        <div class="voxpopuli_title_text unhighlightable">Vox Populi</div>
+        <div class="voxpopuli_question unhighlightable">
           What is the most notable USG policy or project that you remember?
         </div>
-        <div class="voxpopuli_button">
+        <div class="voxpopuli_button unhighlightable">
           View Vox Populi →
         </div>
       </div>
