@@ -218,7 +218,8 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  padding-top: 45px;
+  justify-content: center;
+  padding-bottom: 10px;
 }
 
 .featured_tag {
@@ -238,7 +239,7 @@ body {
   font-size: 15px
 }
 
-/* Fast talk */
+/* Vox populi */
 .voxpopuli {
   margin: 40px 0px;
   display: flex;
