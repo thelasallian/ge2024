@@ -1,8 +1,12 @@
 
 /* Mobile Responsiveness */
-function adjust_window() {
+async function adjust_window() {
 
   console.log(window.visualViewport.width)
+
+  // Articles JSON
+  const file = await fetch("./json/articles.json")
+  const content = await file.json()
 
   if(window.visualViewport.width > 1200) {
     // Global
@@ -30,6 +34,16 @@ function adjust_window() {
     // Global
     $(".content").css("padding", "50px 65px"); 
 
+    // Editor's note
+    $(".featured").html(`
+      <div class="featured_details">
+        <div class="featured_tag">${content.articles[0].data.tag}</div>
+        <div class="featured_title">${content.articles[0].data.title}</div>
+      </div>  
+      <img class="featured_img" src="${content.articles[0].data.img}" alt="<?php echo $featured_title?>" title="<?php echo $featured_title?>" draggable="false">
+      <div class="featured_desc">${content.articles[0].data.desc}</div>
+    `)
+    
     // footer
     $(".footer_content").css("padding", "50px 65px 50px 65px")
   } else if(window.visualViewport.width <= 768 && window.visualViewport.width > 480) {
