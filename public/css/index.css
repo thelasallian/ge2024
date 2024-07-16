@@ -98,7 +98,7 @@ body {
 
 .logo, .hamburger {
   height: 35px;
-  filter: drop-shadow(1px 1px 10px var(--drop_shadow_color));
+  filter: drop-shadow(4px 4px 10px var(--drop_shadow_color));
 }
 
 .landing.title {
@@ -297,7 +297,7 @@ body {
 
 .footer_logo {
   height: 70px;
-  filter: blur(2px);
+  filter: blur(1.3px);
 }
 
 .footer_org_desc {
@@ -323,7 +323,7 @@ body {
 .footer_socials_icon {
   text-decoration: none;
   height: 40px;
-  filter: blur(1.5px);
+  filter: blur(1.1px);
   margin-right: 8px;
 }
 
