@@ -77,6 +77,8 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100%;
+  background-color:  #1A1A1A;
+  mix-blend-mode: color-dodge;
 }
 
 .navbar {
@@ -125,10 +127,6 @@ body {
   font-size: var(--sub_title_font_size);
   line-height: normal;
   font-family: var(--sub_title_font);
-}
-
-.landing.main_title:hover, .landing.sub_title:hover, .footer_logo:hover, .footer_socials_icon:hover, .editors_note_art:hover {
-  filter: blur(0px);
 }
 
 /* Home page */
@@ -278,6 +276,8 @@ body {
 .footer.background {
   background: url(../assets/art/footer_background.png);
   background-size: cover;
+  background-color: #1A1A1A;
+  mix-blend-mode: color-dodge;
 }
 
 .footer_content {
