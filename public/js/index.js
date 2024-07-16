@@ -2,6 +2,8 @@
 /* Mobile Responsiveness */
 function adjust_window() {
 
+  console.log(window.visualViewport.width)
+
   if(window.visualViewport.width > 1200) {
     // Global
     $(".content").css("padding", "60px 90px");
