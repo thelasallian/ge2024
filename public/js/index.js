@@ -33,7 +33,10 @@ function adjust_window() {
 
   } else if(window.visualViewport.width <= 1024) {
     // Global
-    $(".content").css("padding", "60px 65px"); 
+    $(".content").css("padding", "50px 65px"); 
+
+    // footer
+    $(".footer_content").css("padding", "50px 65px 50px 65px")
   } else if(window.visualViewport.width <= 768) {
 
 
