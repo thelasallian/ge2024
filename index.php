@@ -5,8 +5,9 @@
   <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
   <title>The LaSallian - House of cards</title>
   <link rel="icon" type="image/x-icon" href="./public/assets/logos/tls-star-white.svg">
-  
   <link rel="stylesheet" href="./public/css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./public/js/index.js" defer></script>
 </head>
 <body>
   <!-- House of cards landing page -->
