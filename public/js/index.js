@@ -20,7 +20,7 @@ function adjust_window() {
 
   } else if(window.visualViewport.width <= 1200) { 
     // Global
-    $(".content").css("padding", "60px 70px");
+    $(".content").css("padding", "50px 70px");
 
     // Editor's note
     $(".editors_note_text").css("margin", "auto 20px");
@@ -28,6 +28,8 @@ function adjust_window() {
     $(".editors_note_body").css("flex-direction", "column")
     $(".editors_note_art").css("margin-bottom", "40px");
     
+    // footer
+    $(".footer_content").css("padding", "50px 70px 60px 70px")
 
   } else if(window.visualViewport.width <= 1024) {
     // Global
