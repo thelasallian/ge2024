@@ -322,13 +322,13 @@ body {
   text-decoration: none;
   height: 40px;
   filter: blur(1.1px);
-  margin-right: 8px;
+  margin-left: 8px;
 }
 
 .footer_socials_fb {
   height: 34px;
   margin: 0;
-  transform: translateY(-3.5px) translateX(-5px);
+  transform: translateY(-2.6px) translateX(1.2px);
 }
 
 .footer_socials {
