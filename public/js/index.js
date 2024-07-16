@@ -11,6 +11,10 @@ function adjust_window() {
     // Editor's note
     $(".editors_note_body").css("display", "flex")
     $(".editors_note_body").css("flex-direction", "row")
+    $(".editors_note_art").css("justify-content", "center")
+    $(".editors_note_art").css("margin-bottom", "0px")
+
+    5
 
 
 
@@ -20,7 +24,9 @@ function adjust_window() {
 
     // Editor's note
     $(".editors_note_text").css("margin", "auto 20px");
-    $(".editors_note_body").css("display", "initial")
+    $(".editors_note_body").css("display", "flex")
+    $(".editors_note_body").css("flex-direction", "column")
+    $(".editors_note_art").css("margin-bottom", "40px");
     
 
   } else if(window.visualViewport.width <= 1024) {
