@@ -13,12 +13,7 @@ function adjust_window() {
     $(".editors_note_body").css("flex-direction", "row")
     $(".editors_note_art").css("justify-content", "center")
     $(".editors_note_art").css("margin-bottom", "0px")
-
-    5
-
-
-
-  } else if(window.visualViewport.width <= 1200) { 
+  } else if(window.visualViewport.width <= 1200 && window.visualViewport.width > 1024) { 
     // Global
     $(".content").css("padding", "50px 70px");
 
@@ -31,16 +26,16 @@ function adjust_window() {
     // footer
     $(".footer_content").css("padding", "50px 70px 60px 70px")
 
-  } else if(window.visualViewport.width <= 1024) {
+  } else if(window.visualViewport.width <= 1024 && window.visualViewport.width > 768) {
     // Global
     $(".content").css("padding", "50px 65px"); 
 
     // footer
     $(".footer_content").css("padding", "50px 65px 50px 65px")
-  } else if(window.visualViewport.width <= 768) {
+  } else if(window.visualViewport.width <= 768 && window.visualViewport.width > 480) {
 
 
-  } else if(window.visualViewport.width <= 480) {
+  } else if(window.visualViewport.width <= 480 && window.visualViewport.width > 320) {
   } else if(window.visualViewport.width <= 320) { 
   }
 }
